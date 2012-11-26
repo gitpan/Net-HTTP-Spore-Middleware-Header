@@ -11,7 +11,7 @@ package Net::HTTP::Spore::Middleware::Header;
 # ABSTRACT: Spore Middleware to add header on each request
 use strict;
 use warnings;
-our $VERSION = '0.01';    # VERSION
+our $VERSION = '0.02';    # VERSION
 
 use Moose;
 extends 'Net::HTTP::Spore::Middleware';
@@ -26,6 +26,8 @@ sub call {
 }
 1;
 
+__END__
+
 =pod
 
 =head1 NAME
@@ -34,7 +36,7 @@ Net::HTTP::Spore::Middleware::Header - Spore Middleware to add header on each re
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -57,7 +59,8 @@ This method will add header_name:header_value in the header of each request
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/celogeek/Net-HTTP-Spore-Middleware-Header/issues
+http://tasks.celogeek.com/projects/perl-modules-net-http-spore-middleware-h
+eader
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -75,6 +78,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-__END__
-

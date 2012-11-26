@@ -23,7 +23,7 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Net-HTTP-Spore-Middleware-Header",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Net::HTTP::Spore::Middleware::Header",
   "recommends" => {},
